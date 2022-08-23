@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding:0;
+}
+
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #FF0000;
+  position: fixed;
+  width: 100%;
+  height: 4em;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.6);
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.nav-link ul {
+  display: block;
+}
+
+.nav-link li {
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;  
+  font-family: verdana;
+  font-size: 1.6em;
+}
+
+
+.nav-link li:hover {
+  display: flex;
+  flex-grow: 2;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;  
+  background-color: rgba(255, 163, 0, 1);
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  background-color: rgba(255, 163, 0, 1);
+  font-family: verdana;
+  font-style: italic;
+}
+
+
+
+#projects {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  background-color: rgba(0, 21, 255, 0.8);
+  font-family: verdana;
+  font-style: italic;  
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.project-title {
+  display: flex;
+  width: 300px;
+  font-size: 0.6em;
+  text-align: center;
+}
+
+.project-title img{
+  display: flex;
+  width: 240px;
+}
+
+.project-title img:hover{
+  display: flex;
+  width: 300px;
+}
